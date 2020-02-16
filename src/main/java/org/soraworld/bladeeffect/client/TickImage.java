@@ -88,10 +88,10 @@ public class TickImage {
 
         if (bindTexture(mc.getTextureManager(), resource)) {
             drawScaledCustomSizeModalRect((width - size) / 2D, (height - size) / 2D,
-                    0, frame,
+                    frame, 0,
                     1, 1,
                     size, size,
-                    1, frameAmount, alpha);
+                    frameAmount, 1, alpha);
         }
     }
 }

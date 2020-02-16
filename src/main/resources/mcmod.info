@@ -2,7 +2,7 @@
   {
     "modid": "bladeeffect",
     "name": "BladeEffect",
-    "description": "BladeEffect Mod , Copyright (c) 2019 Himmelt.",
+    "description": "BladeEffect Mod , Copyright (c) 2020 Himmelt.",
     "version": "${version}",
     "mcversion": "[${mcversion}]",
     "url": "https://github.com/Himmelt/BladeEffect",
