@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "bladeeffect",
+    "name": "BladeEffect",
+    "description": "BladeEffect Mod , Copyright (c) 2019 Himmelt.",
+    "version": "${version}",
+    "mcversion": "[${mcversion}]",
+    "url": "https://github.com/Himmelt/BladeEffect",
+    "authorList": [
+      "Himmelt"
+    ],
+    "credits": "Himmelt, making this mod.",
+    "logoFile": "assets/bladeeffect/logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
