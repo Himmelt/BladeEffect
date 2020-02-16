@@ -18,7 +18,7 @@ public class BladeEffect {
 
     public static final String MOD_ID = "bladeeffect";
     public static final String MOD_NAME = "BladeEffect";
-    public static final String MOD_VERSION = "1.0.0";
+    public static final String MOD_VERSION = "1.0.1";
 
     @SidedProxy(
             clientSide = "org.soraworld.bladeeffect.client.ClientProxy",
