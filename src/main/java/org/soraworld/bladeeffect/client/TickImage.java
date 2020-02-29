@@ -7,7 +7,7 @@ import net.minecraft.util.ResourceLocation;
 
 import static org.soraworld.bladeeffect.BladeEffect.MOD_ID;
 import static org.soraworld.bladeeffect.client.ImageHandler.bindTexture;
-import static org.soraworld.bladeeffect.client.ImageHandler.drawScaledCustomSizeModalRect;
+import static org.soraworld.bladeeffect.client.ImageHandler.drawRectImage;
 
 /**
  * @author Himmelt
@@ -87,7 +87,7 @@ public class TickImage {
         int size = MathHelper.ceiling_float_int(Math.min(width, height) * scale);
 
         if (bindTexture(mc.getTextureManager(), resource)) {
-            drawScaledCustomSizeModalRect((width - size) / 2D, (height - size) / 2D,
+            drawRectImage((width - size) / 2D, (height - size) / 2D,
                     frame, 0,
                     1, 1,
                     size, size,
